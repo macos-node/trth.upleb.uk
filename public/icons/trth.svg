@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="trth — truth stakes">
+  <!-- Shield with check (truth attestation) -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+    <path d="M 32 12 L 50 20 L 50 34 C 50 44, 42 51, 32 54 C 22 51, 14 44, 14 34 L 14 20 Z" stroke="#FF7849"/>
+    <path d="M 22 33 L 30 40 L 44 25" stroke="#FFB347"/>
+  </g>
+</svg>
