@@ -55,7 +55,7 @@ const NstartHand = () => (
 );
 
 // ── Constants ─────────────────────────────────────────────────────────────────
-const RELAY_URL = 'wss://relay.fizx.uk';
+const RELAY_URL = 'wss://relay.nfunc.xyz';
 const CHALLENGE_KIND = 30078;
 const CORAL:   [number, number, number] = [255, 120,  73];
 const AMBER:   [number, number, number] = [255, 179,  71];
@@ -231,7 +231,7 @@ function useUserProfile(pubkey: string | null) {
   useEffect(() => {
     if (!pubkey) { setProfile(null); return; }
     setProfile(null);
-    const relays = ['wss://relay.fizx.uk', 'wss://nos.lol'];
+    const relays = ['wss://relay.nfunc.xyz', 'wss://nos.lol'];
     const sockets: WebSocket[] = [];
     let latestTs = 0;
     relays.forEach(url => {
